@@ -1,5 +1,5 @@
 if Banana then
-  local Status, Script = pcall(game.HttpGet, game, 'https://api.luarmor.net/files/v3/loaders/e75aa6d7049fddac23ab8dca75ccd8ef.lua');
+  local Status, Script = pcall(game.HttpGet, game, 'https://api.luarmor.net/files/v3/loaders/8155d6b87e84aa32c08628aa62f33164.lua');
   if Status then
       loadstring(Script)();
   else
