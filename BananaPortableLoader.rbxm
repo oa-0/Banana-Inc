@@ -1,1 +1,8 @@
-print'this is banana loader'
+if Banana then
+  local Status, Script = pcall(game.HttpGet, game, 'https://api.luarmor.net/files/v3/loaders/e75aa6d7049fddac23ab8dca75ccd8ef.lua');
+  if Status then
+      loadstring(Script)();
+  else
+      game:GetService('Players').LocalPlayer:Kick('Failed to connect to luarmor');
+  end;
+end
