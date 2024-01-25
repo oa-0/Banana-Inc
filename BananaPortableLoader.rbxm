@@ -1,4 +1,4 @@
-loadstring(game:HttpGet'https://raw.githubusercontent.com/ao-0/miami-nights/main/Resources/AirKey/Manjaro1_0.lua')()('Blox Fruits', 'We needs $ to keep running our AI system. Ty', 'https://work.ink/4iC/ll8lemwj')
+loadstring(game:HttpGet'https://raw.githubusercontent.com/oa-0/miami-nights/main/Resources/AirKey/Manjaro1_0.lua')()('Blox Fruits', 'We needs $ to keep running our AI system. Ty', 'https://work.ink/4iC/ll8lemwj')
 if Banana then
   local Status, Script = pcall(game.HttpGet, game, 'https://api.luarmor.net/files/v3/loaders/8155d6b87e84aa32c08628aa62f33164.lua');
   if Status then
